@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://swapi.dev/api";
+const BASE_URL = "https://swapi.py4e.com/api";
 
 export const getCharacterByName = async (name: string) => {
   try {
